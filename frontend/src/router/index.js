@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/Home.vue";
-import Admin from "@/views/Admin.vue";
+import Login from "@/views/Login.vue"; // Ensure this file exists
 
 const routes = [
   { path: "/", component: Home },
-  { path: "/admin", component: Admin },
+  { path: "/home", component: Home }, // Ensure this exists
+  { path: "/login", component: Login },
 ];
 
 const router = createRouter({
@@ -12,4 +13,4 @@ const router = createRouter({
   routes,
 });
 
-export default router; // Ensure this line exists!
+export default router;

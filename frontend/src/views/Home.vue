@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>Welcome to the Messaging App</h1>
+      <h1>home</h1>
     </div>
   </template>
   
